@@ -149,6 +149,7 @@
         </div>
 
         <!-- Replace YOUR_FORM_ENDPOINT with your Formspree or Web3Forms URL when ready -->
+      <!-- Replace YOUR_FORM_ENDPOINT with your Formspree or Web3Forms URL when ready -->
         <form class="quote-form" action="https://formspree.io/f/YOUR_FORM_ENDPOINT" method="POST">
           <div class="form-row">
             <label>
@@ -156,14 +157,24 @@
               <input type="text" name="name" placeholder="e.g. Sarah Thompson" required />
             </label>
             <label>
-              Phone or Email
-              <input type="text" name="contact" placeholder="e.g. 07700 900000 or name@example.com" required />
+              Postcode / Area
+              <input type="text" name="postcode" placeholder="e.g. IP4" required />
             </label>
           </div>
-          <label>
-            Property &amp; Services Needed
-            <textarea name="details" rows="4" placeholder="Tell us about any additional informtation we might need regarding your property (house, bungalow, commercial, care site) and any extras like gutters, fascias, or conservatories."></textarea>
-   <label>
+
+          <div class="form-row">
+            <label>
+              Phone Number
+              <input type="tel" name="phone" placeholder="e.g. 07700 900000" />
+            </label>
+            <label>
+              Email Address
+              <input type="email" name="email" placeholder="e.g. name@example.com" />
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label>
               Preferred Round Frequency
               <select name="frequency" required>
                 <option value="">Select frequency</option>
@@ -172,6 +183,7 @@
                 <option value="Other (Regular / Multi-Site)">Other (Regular / Multi-Site Enquiry)</option>
               </select>
             </label>
+            <div></div>
           </div>
 
           <label>
@@ -181,18 +193,3 @@
 
           <button type="submit" class="btn btn-primary">Send Quote Request</button>
         </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>
-        <strong>J Hazelwood Window Cleaning</strong>
-        <p>4-Weekly &amp; 8-Weekly Maintenance Cleaning • Ipswich &amp; Surrounding Areas</p>
-      </div>
-      <p class="footer-note">&copy; 2026 J Hazelwood Window Cleaning. All rights reserved.</p>
-    </div>
-  </footer>
-</body>
-</html>
