@@ -54,7 +54,13 @@ body {
   min-height: 74px;
   gap: 16px;
 }
-
+.brand-logo {
+  display: block;
+  height: 44px;
+  width: auto;
+  max-width: 190px;
+  object-fit: contain;
+}
 .brand {
   display: inline-flex;
   align-items: center;
